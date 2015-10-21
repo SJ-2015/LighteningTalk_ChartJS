@@ -42,11 +42,11 @@ var myNewChart = new Chart(ctx);
 * create new chart:
 ```
 new Chart(ctx).PolarArea(data, options);
-```
-new Chart(ctx).PolarArea(data, options);
+
 ```
 
 * getting global chart config (keep the code DRY and charts consistent)
+
 ```
 Chart.defaults.global = {
     // Boolean - Whether to animate the chart
@@ -178,7 +178,6 @@ Chart.defaults.global = {
 
     // Function - Will fire on animation completion.
     onAnimationComplete: function(){}
-}
 ```
 
 ### Pros 

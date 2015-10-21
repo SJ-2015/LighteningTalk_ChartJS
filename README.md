@@ -5,6 +5,7 @@ Chart.js is an HTML5 canvas based responsive, flexible, light-weight charting li
 Easy, object oriented client side graphs for designers and developers
 First release: 2013
 6 chart types
+
 source: http://www.sitepoint.com/fancy-responsive-charts-with-chart-js/
 
 
@@ -189,15 +190,19 @@ Chart.defaults.global = {
 ### Cons
 * 2D only library
 * missing basic charts: e.g. stacked, waterfall etc
-* limited build in charts: 6 total
+* limited build in charts: 6 total (vs. 90+ in other libraries)
 * limited built in styling: no legend, no numbers formatting
 * The charts are drawn using Canvas and hence cannot offer any interactivity
 
 
 
 ### Additional resources: 
-* comparison of charting tools: http://www.fusioncharts.com/javascript-charting-comparison/
+* comparison of charting tools: 
+
+http://www.fusioncharts.com/javascript-charting-comparison/
+
 * Additional charts plugin: 
+
 https://github.com/Regaddi/Chart.StackedBar.js
 https://devblog.promotably.com/how-to-create-horizontal-bar-charts-with-chartjs/
 
